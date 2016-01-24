@@ -145,12 +145,12 @@ textarea:focus, input:focus {
 }
 
 .bg-1 {
-  background-image: url("file:///Users/Paulobiscotto/Code/powiz-github-pages/images/energy1.jpg");
+  background-image: url("images/energy1.jpg");
   opacity: .75;
 }
 
 .bg-2 {
-  background-image: url("file:///Users/Paulobiscotto/Code/powiz-github-pages/images/energy2.jpg");
+  background-image: url("images/energy2.jpg");
   opacity: 0;
 }
 
