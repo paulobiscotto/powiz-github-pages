@@ -40,7 +40,15 @@
 @import url("http://fonts.googleapis.com/css?family=Roboto");
 body {
   background: #000;
-  text-align: center;
+  /*text-align: center;*/
+}
+
+.logo {
+	position: absolute;
+	top: 0;
+	margin-left: 70px;
+	height: 60px;
+	z-index: 1;
 }
 
 .button {
