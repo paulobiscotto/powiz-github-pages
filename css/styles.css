@@ -1,0 +1,104 @@
+/* How to override the default Bootstrap navbar */
+
+/*.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 50px;
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: white;
+}*/
+
+@import "compass/css3";
+
+/*html { 
+  background: url(file:///Users/Paulobiscotto/Code/powiz-github-pages/images/energy1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+
+@import url("http://fonts.googleapis.com/css?family=Roboto");
+body {
+  background: #000;
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: inline-block;
+  z-index: 1;
+  border: 3px solid rgba(255, 255, 255, 0.25);
+  padding: 20px 32px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+.button:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: transparent;
+  color: #fff;
+}
+
+.bg-1,
+.bg-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1920px;
+  height: 100%;
+  max-height: 1200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.bg-1 {
+  background-image: url("file:///Users/Paulobiscotto/Code/powiz-github-pages/images/energy1.jpg");
+  opacity: .75;
+}
+
+.bg-2 {
+  background-image: url("file:///Users/Paulobiscotto/Code/powiz-github-pages/images/energy2.jpg");
+  opacity: 0;
+}
+
+.button:hover ~ .bg-1 {
+  opacity: 0;
+}
+
+.button:hover ~ .bg-2 {
+  opacity: .7;
+}
