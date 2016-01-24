@@ -51,7 +51,35 @@ body {
 	z-index: 1;
 }
 
-.button {
+
+
+.info{
+	padding: 20px 32px;
+	border: 3px solid rgba(255, 255, 255, 0.25);
+	padding: 20px 32px;
+	font-family: 'Roboto', sans-serif;
+	z-index: 1
+	font-size: 1.125em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #ffffff;
+	cursor: pointer;
+	background-color: transparent;
+
+}
+
+::-webkit-input-placeholder { color:#ffffff; }
+::-moz-placeholder { color:#ffffff; } /* firefox 19+ */
+:-ms-input-placeholder { color:#ffffff; } /* ie */
+input:-moz-placeholder { color:#ffffff; }
+
+.info:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: transparent;
+  /*color: #fff;*/
+}
+
+.button{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -65,7 +93,7 @@ body {
   font-size: 1.125em;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: rgba(255, 255, 255, 0.75);
+  /*color: rgba(255, 255, 255, 0.75);*/
   cursor: pointer;
   -webkit-transition: all .5s;
   transition: all .5s;
@@ -73,7 +101,7 @@ body {
 .button:hover {
   background: rgba(255, 255, 255, 0.25);
   border-color: transparent;
-  color: #fff;
+  /*color: #fff;*/
 }
 
 .bg-1,
