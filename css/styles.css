@@ -161,3 +161,8 @@ textarea:focus, input:focus {
 .button:hover ~ .bg-2 {
   opacity: .7;
 }
+
+.mockup {
+  position: absolute;
+  width: 100%;
+}
